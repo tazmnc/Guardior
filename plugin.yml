@@ -1,0 +1,20 @@
+name: Guardior
+version: '1.0.0'
+main: com.pearldev.guardior.Guardior
+api-version: '1.20'
+author: PearlDev
+description: Advanced License Protection System
+website: https://pearldev.com
+folia-supported: true
+
+commands:
+  guardior:
+    description: Guardior main command
+    usage: /guardior
+    permission: guardior.admin
+    aliases: [gd]
+
+permissions:
+  guardior.admin:
+    description: Access to Guardior admin commands
+    default: op

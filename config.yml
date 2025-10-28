@@ -1,0 +1,13 @@
+# Guardior License Configuration
+# Developed by PearlDev LLC
+license: "NOT-NEED"
+
+# Messages Configuration
+messages:
+  prefix: "&8[&6Guardior&8] &r"
+  license-checking: "&eChecking license validity..."
+  license-valid: "&aLicense validated successfully!"
+  license-invalid: "&cInvalid license or IP limit reached!"
+  license-not-found: "&cLicense not found in configuration!"
+  api-unavailable: "&eAPI server unavailable, running in offline mode..."
+  plugin-disabled: "&cPlugin has been disabled due to license issues!"
